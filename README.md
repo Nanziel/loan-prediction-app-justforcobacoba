@@ -29,7 +29,70 @@ Aplikasi web sederhana ini dibangun menggunakan **Python** dan **Streamlit** unt
 ├── requirements.txt      # Daftar library yang dibutuhkan
 └── README.md             # Dokumentasi project ini
 
+---
 
+## 🛠️ Instalasi & Menjalankan Aplikasi
+
+### 1. Persiapan
+Pastikan Anda sudah menginstal **Python** (disarankan versi **3.10 ke atas**). Buka terminal atau Command Prompt, lalu masuk ke folder project.
+
+---
+
+### 2. Clone Repository
+```bash
+git clone https://github.com/Nanziel/loan-prediction-app-justforcobacoba.git
+cd loan-prediction-app-justforcobacoba
+```
+
+---
+
+### 3. Buat Virtual Environment *(Opsional tapi Disarankan)*
+```bash
+python -m venv venv
+```
+
+#### Aktivasi Virtual Environment
+**Windows**
+```bash
+.\\venv\\Scripts\\activate
+```
+
+**Mac / Linux**
+```bash
+source venv/bin/activate
+```
+
+---
+
+### 4. Instalasi Library
+Gunakan file `requirements.txt` untuk menginstal semua dependensi sekaligus:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 5. Menjalankan Aplikasi
+```bash
+streamlit run app.py
+```
+Setelah itu, aplikas
+
+### 3. Instalasi Library
+Gunakan file `requirements.txt` untuk menginstal semua dependensi sekaligus:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4. Menjalankan Aplikasi
+```bash
+streamlit run app.py
+```
+Setelah itu, aplikasi akan terbuka otomatis di browser.
+
+---
 
 ## 📝 Catatan Data
 Model Machine Learning pada aplikasi ini dilatih menggunakan **dataset historis pinjaman** dengan fitur-fitur berikut:
