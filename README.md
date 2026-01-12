@@ -3,31 +3,38 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg.svg)](MASUKKAN_LINK_STREAMLIT_KAMU_DISINI)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Hai fella! 👋 Selamat datang di project **Loan Prediction App**. 
+Hai fella! 👋 Selamat datang di project **Loan Prediction App**.
 Aplikasi web sederhana ini dibangun menggunakan **Python** dan **Streamlit** untuk memprediksi apakah seorang nasabah layak mendapatkan pinjaman bank atau tidak berdasarkan profil data mereka.
 
+---
+
 ## 🚀 Fitur Utama
-- **Prediksi Cepat:** Masukkan data nasabah dan dapatkan hasilnya seketika.
-- **Konversi Mata Uang:** Input gaji dalam Rupiah (IDR) otomatis dikonversi ke Dollar (USD) untuk diproses model.
-- **UI Ramah Pengguna:** Tampilan dalam Bahasa Indonesia.
+- **Prediksi Cepat:** Masukkan data nasabah dan dapatkan hasil prediksi secara instan.
+- **Konversi Mata Uang:** Input gaji dalam Rupiah (IDR) otomatis dikonversi ke Dollar (USD) sebelum diproses oleh model.
+- **UI Ramah Pengguna:** Antarmuka sederhana dan menggunakan Bahasa Indonesia.
+
+---
 
 ## 🛠️ Teknologi yang Digunakan
 - **Bahasa:** Python 3.13
 - **Framework Web:** Streamlit
 - **Machine Learning:** Scikit-Learn (Logistic Regression)
-- **Data Handling:** Pandas & Numpy
+- **Data Handling:** Pandas & NumPy
 - **Model Storage:** Pickle (.sav)
+
+---
 
 ## 📂 Struktur Folder
 ```text
 .
 ├── app.py                # Kode utama aplikasi Streamlit
 ├── best_loan_model.sav   # Model Machine Learning yang sudah dilatih
-├── loanprediction.py     # File pembuatan model
+├── loanprediction.py     # Script training & preprocessing model
 ├── train.csv             # Data training model
-├── test.csv              # Data test model
+├── test.csv              # Data testing model
 ├── requirements.txt      # Daftar library yang dibutuhkan
-└── README.md             # Dokumentasi project ini
+└── README.md             # Dokumentasi project
+```
 
 ---
 
@@ -54,7 +61,7 @@ python -m venv venv
 #### Aktivasi Virtual Environment
 **Windows**
 ```bash
-.\\venv\\Scripts\\activate
+.\venv\Scripts\activate
 ```
 
 **Mac / Linux**
@@ -73,20 +80,6 @@ pip install -r requirements.txt
 ---
 
 ### 5. Menjalankan Aplikasi
-```bash
-streamlit run app.py
-```
-Setelah itu, aplikas
-
-### 3. Instalasi Library
-Gunakan file `requirements.txt` untuk menginstal semua dependensi sekaligus:
-```bash
-pip install -r requirements.txt
-```
-
----
-
-### 4. Menjalankan Aplikasi
 ```bash
 streamlit run app.py
 ```
@@ -111,11 +104,13 @@ Model Machine Learning pada aplikasi ini dilatih menggunakan **dataset historis 
 ### 🔹 Rekam Jejak & Properti
 - Riwayat Kredit
 - Lokasi Properti
-- 
----
 
+---
 
 ## 👨‍💻 Author
-Dibuat oleh **Nanziel** sebagai bagian dari eksplorasi **Machine Learning & Web Deployment**. Feel free to use it! 🎉
+Dibuat oleh **Nanziel** sebagai bagian dari eksplorasi **Machine Learning & Web Deployment**.
+
+Feel free to use it! 🎉
 
 ---
+
