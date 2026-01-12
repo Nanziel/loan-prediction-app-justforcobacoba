@@ -29,49 +29,7 @@ Aplikasi web sederhana ini dibangun menggunakan **Python** dan **Streamlit** unt
 ├── requirements.txt      # Daftar library yang dibutuhkan
 └── README.md             # Dokumentasi project ini
 
----
 
-## 🛠️ Instalasi & Menjalankan Aplikasi
-
-### 1. Clone Repository
-```bash
-git clone https://github.com/username/nama-repo.git
-cd nama-repo
-```
-
-### 2. Buat Virtual Environment *(Opsional tapi Disarankan)*
-```bash
-python -m venv venv
-```
-
-#### Aktivasi Virtual Environment
-**Windows**
-```bash
-.\venv\Scripts\activate
-```
-
-**Mac / Linux**
-```bash
-source venv/bin/activate
-```
-
----
-
-### 3. Instalasi Library
-Gunakan file `requirements.txt` untuk menginstal semua dependensi sekaligus:
-```bash
-pip install -r requirements.txt
-```
-
----
-
-### 4. Menjalankan Aplikasi
-```bash
-streamlit run app.py
-```
-Setelah itu, aplikasi akan terbuka otomatis di browser.
-
----
 
 ## 📝 Catatan Data
 Model Machine Learning pada aplikasi ini dilatih menggunakan **dataset historis pinjaman** dengan fitur-fitur berikut:
