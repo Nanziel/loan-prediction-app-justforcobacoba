@@ -9,7 +9,6 @@ Aplikasi web sederhana ini dibangun menggunakan **Python** dan **Streamlit** unt
 ## 🚀 Fitur Utama
 - **Prediksi Cepat:** Masukkan data nasabah dan dapatkan hasilnya seketika.
 - **Konversi Mata Uang:** Input gaji dalam Rupiah (IDR) otomatis dikonversi ke Dollar (USD) untuk diproses model.
-- **Data Preprocessing Otomatis:** Menggunakan Scikit-Learn Pipeline untuk menangani data kosong (Imputation) dan mengubah teks ke angka (Encoding) secara otomatis.
 - **UI Ramah Pengguna:** Tampilan dalam Bahasa Indonesia.
 
 ## 🛠️ Teknologi yang Digunakan
@@ -30,18 +29,72 @@ Aplikasi web sederhana ini dibangun menggunakan **Python** dan **Streamlit** unt
 ├── requirements.txt      # Daftar library yang dibutuhkan
 └── README.md             # Dokumentasi project ini
 
+---
 
-## 🛠️ Panduan Instalasi & Penggunaan
+## 🛠️ Instalasi & Menjalankan Aplikasi
 
-Ikuti langkah-langkah di bawah ini untuk menjalankan project di komputer Anda:
+### 1. Clone Repository
+```bash
+git clone https://github.com/username/nama-repo.git
+cd nama-repo
+```
 
-### 1. Persiapan Awal
-Pastikan Anda sudah menginstal **Python 3.13** atau versi terbaru. Buka terminal (CMD) dan arahkan ke folder project.
-
-### 2. Buat Virtual Environment (Opsional tapi Disarankan)
+### 2. Buat Virtual Environment *(Opsional tapi Disarankan)*
 ```bash
 python -m venv venv
-# Aktifkan venv (Windows)
+```
+
+#### Aktivasi Virtual Environment
+**Windows**
+```bash
 .\venv\Scripts\activate
-# Aktifkan venv (Mac/Linux)
+```
+
+**Mac / Linux**
+```bash
 source venv/bin/activate
+```
+
+---
+
+### 3. Instalasi Library
+Gunakan file `requirements.txt` untuk menginstal semua dependensi sekaligus:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4. Menjalankan Aplikasi
+```bash
+streamlit run app.py
+```
+Setelah itu, aplikasi akan terbuka otomatis di browser.
+
+---
+
+## 📝 Catatan Data
+Model Machine Learning pada aplikasi ini dilatih menggunakan **dataset historis pinjaman** dengan fitur-fitur berikut:
+
+### 🔹 Profil Nasabah
+- Jenis Kelamin
+- Status Pernikahan
+- Pendidikan
+- Jumlah Tanggungan
+
+### 🔹 Informasi Keuangan
+- Gaji Utama
+- Gaji Pasangan
+- Jumlah Pinjaman
+
+### 🔹 Rekam Jejak & Properti
+- Riwayat Kredit
+- Lokasi Properti
+- 
+---
+
+
+## 👨‍💻 Author
+Dibuat oleh **Nanziel** sebagai bagian dari eksplorasi **Machine Learning & Web Deployment**. Feel free to use it! 🎉
+
+---
